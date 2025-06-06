@@ -1,0 +1,19 @@
+# Core Flask
+flask==2.3.2
+flask-sqlalchemy==3.0.3
+flask-jwt-extended==4.4.4
+werkzeug==2.3.6
+
+# Search Functionality
+whoosh==2.7.4
+
+# Document Processing
+PyPDF2==3.0.1           # PDF text extraction
+epub-meta==0.2.5        # EPUB metadata
+python-pptx==0.6.21     # PowerPoint docs (optional)
+python-docx==0.8.11     # Word docs (optional)
+pillow==9.5.0           # Image processing (for some docs)
+
+# Utilities
+python-dotenv==1.0.0    # Environment variables
+python-dateutil==2.8.2  # Date handling
